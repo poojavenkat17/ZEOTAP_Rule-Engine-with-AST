@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine Using AST</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        .card {
+            cursor: pointer;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Dashboard Title -->
+    <div class="container text-center">
+        <h1 class="my-4">RULE ENGINE USING AST</h1>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card text-center" onclick="window.location.href='/create-rule'">
+                    <div class="card-body">
+                        <h5 class="card-title">Create Rule</h5>
+                        <p class="card-text">Build and define new rules for the engine.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card text-center" onclick="window.location.href='/evaluate-rule'">
+                    <div class="card-body">
+                        <h5 class="card-title">Evaluate Rule</h5>
+                        <p class="card-text">Test and verify your rules with user data.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
